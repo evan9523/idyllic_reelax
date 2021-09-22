@@ -16,7 +16,6 @@ const MoviePage = () => {
   const [defaultMovies, setdefaultMovies] = useState(true);
   const [sugg, setsugg] = useState(false);
   const [allsuggs, setallsuggs] = useState("");
- 
 
   const history = useHistory();
 
@@ -29,8 +28,11 @@ const MoviePage = () => {
     const storedUser = localStorage.getItem("user");
     if (storedUser !== null) {
       setactive(storedUser);
+      console.log(active);
+    } else {
+      history.push("/");
     }
-  }, []);
+  }, [active]);
 
   const getMovies = () => {
     setdefaultMovies(false);

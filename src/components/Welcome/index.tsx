@@ -13,7 +13,7 @@ const Welcome = () => {
     setTimeout(() => {
       history.push("/movie");
     }, 4000);
-  }, []);
+  });
   const container = useRef(null);
   const [user, setuser] = useState("") ;
 
