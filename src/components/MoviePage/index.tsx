@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
 import SearchBar from "../SearchBar";
 import Header from "../Header";
 import Card from "../Card";
-import { API_KEY, base_url } from "../../keys";
+import { API_KEY, base_url } from "../../../keys";
 import dummy from "../../data/mock.json";
 
 const MoviePage = () => {

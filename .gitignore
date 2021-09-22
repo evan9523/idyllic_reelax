@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+#private
+/keys.ts
+
 # production
 /build
 
