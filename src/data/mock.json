@@ -1,0 +1,38 @@
+[
+  {
+    "Title": "Star Wars: Episode IX - The Rise of Skywalker",
+    "Year": "2019",
+    "imdbID": "tt2527338",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg"
+  },
+
+  {
+    "Title": "Get Out",
+    "Year": "2017",
+    "imdbID": "tt5052448",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Bangalore Days",
+    "Year": "2014",
+    "imdbID": "tt3668162",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZmY5NjNjYWMtNmJhNi00YTk0LTg0OWUtNDE4OGQ0YmM4NDAwXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Swades: We, the People",
+    "Year": "2004",
+    "imdbID": "tt0367110",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYzExOTcwNjYtZTljMC00YTQ2LWI2YjYtNWFlYzQ0YTJhNzJmXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Zero Dark Thirty",
+    "Year": "2012",
+    "imdbID": "tt1790885",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ4OTUyNzcwN15BMl5BanBnXkFtZTcwMTQ1NDE3OA@@._V1_SX300.jpg"
+  }
+]
