@@ -27,6 +27,18 @@ const Details = (props: any) => {
   const [rating, setrating] = useState("");
   const [rt, setrt] = useState("");
   const [plot, setPlot] = useState("");
+  const [active, setactive] = useState("");
+
+  useEffect(() => {
+    const storedUser = localStorage.getItem("user");
+    if (storedUser !== null) {
+      setactive(storedUser);
+      console.log(active);
+    } else {
+      history.push("/");
+    }
+  }, [active]);
+
   useEffect(() => {
     const movieId = props.match.params.id;
     fetch(base_url + "?i=" + movieId + "&apikey=" + API_KEY).then((res) =>
