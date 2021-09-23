@@ -20,7 +20,7 @@ export const TextLabel = styled.span`
 
 export const CardContainer = styled.div`
   width: 100%;
-  height: 100%;
+  height: 85%;
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -42,6 +42,6 @@ export const HomeTitle = styled.span`
   color: #fff;
   font-weight:lighter;
 
-  
+
 
 `;
