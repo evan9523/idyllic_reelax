@@ -12,28 +12,40 @@ export const SearchWrapper = styled.div`
 `;
 
 export const SearchInput = styled.input`
-  width: 60%;
-  height: 100%;
+  width: 30%;
+  height: 95%;
   border: 2px solid #58e2c9;
-  border-top-right-radius: 20px;
+  outline-color:none;
   border-bottom-left-radius: 20px;
   text-align: left;
-  margin-bottom: 2px;
+  margin-top: 2px;
   padding: 10px;
   font-size: 20px;
   background-color: #fff;
   color: #5c5c5c;
   outline-color: none !important;
+  border-right-color: #fff;
 `;
 
 export const SearchButton = styled.button`
   width: 80px;
   height: 50px;
-  border: 0.5px solid #58e2c9;
+  border: 0.5px solid #00cc99;
   margin-bottom: -2px;
-  background-color: #58e2c9;
+  background-color: #00cc99;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+`;
+
+export const ClrBtn = styled.button`
+  width: 80px;
+  height: 52px;
+  border: 2px solid #58e2c9;
+  margin-bottom: -2px;
+  background-color: #fff;
+  border-top-right-radius: 20px;
+  border-left-color: #fff;
+ 
 `;
 
 export const SearchLabel = styled.span`
@@ -41,3 +53,5 @@ export const SearchLabel = styled.span`
   font-weight: bold;
   font-size: 15px;
 `;
+
+

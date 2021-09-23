@@ -1,15 +1,17 @@
 import React from "react";
-import {  CardImg, CardWrapper  } from "./Styles";
+import { CardHeader, CardHeaderWrapper, CardImg, CardWrapper } from "./Styles";
 
 interface CardProps {
+  title?: string;
   poster: string;
   onCardPress(): any;
 }
 const Card = (props: CardProps) => {
-  const { poster, onCardPress } = props;
+  const { title, poster, onCardPress } = props;
   return (
     <CardWrapper onClick={onCardPress}>
       <CardImg src={poster} />
+      <CardHeaderWrapper>{title}</CardHeaderWrapper>
     </CardWrapper>
   );
 };

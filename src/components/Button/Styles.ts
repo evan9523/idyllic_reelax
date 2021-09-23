@@ -6,8 +6,8 @@ export const BtnContainer = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #58e2c9;
-  border: 1px solid #58e2c9;
+  background-color: #00cc99;
+  border: 1px solid #00cc99;
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
 

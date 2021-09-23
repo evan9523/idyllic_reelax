@@ -10,8 +10,8 @@ export const DetailContainer = styled.div`
 `;
 
 export const DetailCard = styled.div`
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 60%;
   background-color: #000;
   border: 3px solid #03173e;
   border-top-right-radius: 50px;
@@ -39,7 +39,7 @@ export const Section = styled.div`
 export const CoverImg = styled.img`
   width: 40%;
   height: 150px;
-  border: 3px solid #58e2c9;
+  border: 3px solid #33ccff;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
 `;
@@ -53,17 +53,18 @@ export const StatContainer = styled.div`
 `;
 
 export const StatWrapper = styled.div`
-height: 100%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
 
 export const LabelHead = styled.span`
-  font-size: 12px;
+  font-size: 16px;
   color: gray;
   margin: 10px;
+  font-weight: bold;
 `;
 
 export const MoreContainer = styled.div`
@@ -86,7 +87,7 @@ export const Stat = styled.span`
 export const Plot = styled.span`
   font-size: 16px;
   color: #fff;
-  font-weight: light;
+  font-weight: bold;
 `;
 
 export const MovieTitle = styled.span`

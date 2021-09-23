@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
 import SearchBar from "../SearchBar";
 import Header from "../Header";
 import Card from "../Card";
-import { API_KEY, base_url } from "../../../keys";
+import { API_KEY, base_url } from "../../keys";
 import dummy from "../../data/mock.json";
 
 const MoviePage = () => {
@@ -16,6 +16,7 @@ const MoviePage = () => {
   const [defaultMovies, setdefaultMovies] = useState(true);
   const [sugg, setsugg] = useState(false);
   const [allsuggs, setallsuggs] = useState("");
+  const [toggle, settoggle] = useState(false);
 
   const history = useHistory();
 
@@ -50,6 +51,12 @@ const MoviePage = () => {
     }
   };
 
+  useEffect(() => {
+    if (term !== null || term !== "") {
+      settoggle(true);
+    }
+  }, [term]);
+
   const getallSearches = () => {
     setsugg(true);
     let searches = JSON.parse(localStorage.getItem("allSearches"));
@@ -59,9 +66,16 @@ const MoviePage = () => {
     <MovieContainer>
       <Header />
       <SearchBar
+        showClr={term !== null || term !== "" ? true : false}
+        value={term}
         onChange={(e) => setterm(e.target.value)}
         onSrBtn={() => getMovies()}
         onFocus={() => getallSearches()}
+        onClear={() => {
+          setdefaultMovies(true);
+          setterm("");
+          settoggle(false);
+        }}
       />
       <HomeTitle>
         {sugg && allsuggs !== null

@@ -15,7 +15,7 @@ import {
   StatWrapper,
 } from "./Styles";
 import { useHistory } from "react-router-dom";
-import { API_KEY, base_url } from "../../../keys";
+import { API_KEY, base_url } from "../../keys";
 import Button from "../Button";
 
 const Details = (props: any) => {

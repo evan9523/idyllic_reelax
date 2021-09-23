@@ -38,6 +38,10 @@ export const InnerWrapper = styled.div`
 `;
 
 export const HomeTitle = styled.span`
-  font-size: 15px;
+  font-size: 30px;
   color: #fff;
+  font-weight:lighter;
+
+  
+
 `;
